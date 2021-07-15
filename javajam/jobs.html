@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaJam Coffee House Menu</title>
+<link rel="stylesheet" type="text/css" href="javajam.css">
+</head>
+<body>
+<div class="wrapper">
+<h1> JavaJam Coffee House</h1>
+
+
+  <div class="navjobs">
+  <ul>
+  <li><a id="mainnav" href="index.html">Home</a>&nbsp&nbsp</li>
+  <li><a id="mainnav" href="menu.html">Menu</a>&nbsp&nbsp</li>
+  <li><a id="mainnav" href="music.html">Music</a>&nbsp&nbsp</li>
+  <li><a id="mainnav" href="jobs.html">Jobs</a></li>
+  </ul>
+</div>
+
+<div class="container">
+<h2>Jobs at JavaJam</h2>
+<p>Want to work at JavaJam? Fill out the form below to start your application.<br>
+  Required fields are marked with an asterisk(*).
+</p>
+
+
+<form method="post"
+action="http://webdevbasics.net/scripts/javajam8.php">
+  <label for="myName">*Name:</label>
+  <input type="text" name="myName" id="myName" required="required" placeholder="Your first and last name.">
+<br>
+
+
+  <label for="myEmail">*E-mail:</label>
+  <input type="email" name="myEmail" id="myEmail" required="required" placeholder="you@yourdomain.com">
+<br>
+
+  <label for="myExperience">*Experience:</label>
+  <textarea name="myExperience" id="myExperience" rows="5"
+  cols="30" required="required"></textarea>
+  <br>
+  <input id="mySubmit" type="submit" value="Apply Now">
+</form>
+
+
+</div>
+
+
+<footer>
+
+Copyright 2016 JavaJam Coffee House<br>
+Matthew@Childers.com
+
+</footer>
+</div>
+
+</body>
+</html>

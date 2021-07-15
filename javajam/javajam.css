@@ -1,0 +1,496 @@
+body {
+    background-image: url("background.gif");
+    margin-right:auto;
+    margin-left:auto;
+    width: 80%;
+    color: #221811;
+    font-family: Arial;
+    min-width: 330px;
+
+}
+@media only screen and (max-width: 1024px) {
+
+  .wrapper {
+    width: auto!important;
+    min-width: auto!important;
+    padding: 0!important;
+    margin: none!important;
+    box-shadow: none!important;
+  }
+  .container {
+    width: auto!important;
+    margin: auto!important;
+  }
+  body {
+
+    margin: none!important;
+    width: auto!important;
+  }
+
+  header {
+    border-bottom: 5px solid #FEF6C2!important;
+  }
+
+  h1 {
+    margin-top: 0!important;
+    margin-bottom: 1em!important;
+    padding-top: 1em!important;
+    font-size: 2.5em!important;
+  }
+
+  nav {
+    width: auto!important;
+    float: none!important;
+    margin: 10px!important;
+    height: auto!important;
+    font-size: 1.3em!important;
+    padding-top: 10px!important;
+    text-align: center!important;
+}
+
+.navmenu {
+    width: auto!important;
+    float: none!important;
+    margin: 10px!important;
+    height: auto!important;
+    font-size: 1.3em!important;
+    padding-top: 10px!important;
+    text-align: center!important;
+}
+
+.navguitar {
+    width: auto!important;
+    float: none!important;
+    margin: 10px!important;
+    height: auto!important;
+    font-size: 1.3em!important;
+    padding-top: 10px!important;
+    text-align: center!important;
+}
+
+.navjobs {
+    width: auto!important;
+    float: none!important;
+    margin: 10px!important;
+    height: auto!important;
+    font-size: 1.3em!important;
+    padding-top: 10px!important;
+    text-align: center!important;
+}
+
+nav li {
+    display: inline-block!important;
+}
+
+.navmenu li {
+    display: inline-block!important;
+}
+
+.navguitar li {
+    display: inline-block!important;
+}
+
+.navjobs li {
+    display: inline-block!important;
+}
+
+nav a {
+    padding: 1em!important;
+    width: 8em!important;
+    font-weight: bold!important;
+    border-style: none!important;
+}
+.navmenu a {
+    padding: 1em!important;
+    width: 8em!important;
+    font-weight: bold!important;
+    border-style: none!important;
+}
+.navguitar a {
+    padding: 1em!important;
+    width: 8em!important;
+    font-weight: bold!important;
+    border-style: none!important;
+}
+
+.navjobs a {
+    padding: 1em!important;
+    width: 8em!important;
+    font-weight: bold!important;
+    border-style: none!important;
+}
+
+nav ul {
+    margin: 0!important;
+    padding: 0!important;
+}
+.navmenu ul {
+    margin: 0!important;
+    padding: 0!important;
+}
+.navguitar ul {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.navjobs ul {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.heromugs {margin: 0!important; padding: 0!important;}
+.heroroad {margin: 0!important; padding: 0!important;}
+.heroguitar {margin: 0!important; padding: 0!important;}
+
+
+
+
+}
+
+main {
+  margin: 0!important;
+  padding: 0!important;
+  font-size: 90%!important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: auto!important;
+    float: none!important;
+    min-width: 0!important;
+    padding: 0!important;
+    margin: auto!important;
+    box-shadow: none!important;
+  }
+
+main{
+  padding-top: 1px!important;
+}
+
+  nav a {
+      padding: 0.2em!important;
+      font-weight: bold!important;
+      display: block!important;
+      border-bottom: 1px solid #FEF6C2!important;
+      width: auto!important;
+      text-align: center!important;
+      margin: 0!important;
+      height: auto!important;
+
+  }
+  .navmenu a {
+      padding: 0.2em!important;
+      font-weight: bold!important;
+      display: block!important;
+      border-bottom: 1px solid #FEF6C2!important;
+      width: auto!important;
+      text-align: center!important;
+  }
+  .navguitar a {
+      padding: 0.2em!important;
+      font-weight: bold!important;
+      display: block!important;
+      border-bottom: 1px solid #FEF6C2!important;
+      width: auto!important;
+      text-align: center!important;
+  }
+
+  .navjobs a {
+      padding: 0.2em!important;
+      font-weight: bold!important;
+      display: block!important;
+      border-bottom: 1px solid #FEF6C2!important;
+      width: auto!important;
+      text-align: center!important;
+  }
+
+
+  body {
+    margin: 3px!important;
+    padding: 0!important;
+    width: auto!important;
+    min-width: 330px!important;
+  }
+
+
+
+  nav li {
+    display: block!important;
+    height: auto!important;
+
+
+  }
+  .navmenu li {
+    display: block!important;
+
+  }
+  .navguitar li {
+    display: block!important;
+  }
+  .navjobs li {
+    display: block!important;
+  }
+
+
+  nav ul {
+    text-align: center!important;
+    width: auto!important;
+    margin: 0!important
+    height: auto!important;
+  }
+
+  .navmenu ul {
+    text-align: center!important;
+    width: auto!important;
+  }
+
+  .navguitar ul {
+    text-align: center!important;
+    width: auto!important;
+  }
+
+  .navjobs ul {
+    text-align: center!important;
+    width: auto!important;
+  }
+
+  nav {
+    margin: 0!important;
+    height: auto!important;
+  }
+  .navmenu {
+    margin: 0!important;
+  }
+
+  .navguitar {
+    margin: 0!important;
+  }
+
+  .navjobs {
+    margin: 0!important;
+  }
+
+  .container {
+    float: none!important;
+    width: auto!important;
+    margin: 0!important;
+    padding: 0!important;
+
+  }
+
+  footer {
+    width: auto!important;
+    float: none!important;
+    padding: 0!important;
+    margin: 0!important;
+  }
+
+  h1 {
+    font-size: 2em!important;
+    text-align: center!important;
+    background-image: url("javajammini.jpg")!important;
+    padding-left: 0!important;
+    height: 97px!important;
+    background-size: 175px 128px!important;
+}
+
+h2, h3, p {
+  text-align: center!important;
+}
+  h1, h2,{
+    width: auto!important;
+    float: none!important;
+
+  }
+  .heroroad {display: none;}
+  .heromugs {display: none;}
+  .heroguitar {display: none;}
+  #desktop {display: none;}
+  #mobile {display: inline!important;}
+}
+
+
+
+
+
+
+h1 {
+	background-color: #D2B48C;
+  background-image: url("javajamlogo.jpg");
+  background-repeat:no-repeat;
+    font-size: 3em;
+    height: 100px;
+    padding-top: 45px;
+    padding-left: 220px;
+    margin: 0;
+}
+
+.heroroad {
+  background-image: url("windingroad.jpg");
+  background-repeat:no-repeat;
+  margin-left: 200px;
+  background-size: 100%;
+  background-position: center;
+  height: 250px;
+
+}
+
+.heromugs {
+  background-image: url("mugs.jpg");
+  background-repeat:no-repeat;
+  margin-left: 200px;
+  background-size: 100%;
+  background-position: center;
+  height: 250px;
+}
+
+.heroguitar {
+  background-image: url("guitar.jpg");
+  background-repeat:no-repeat;
+  margin-left: 200px;
+  background-size: 100%;
+  background-position: center;
+  height: 250px;
+}
+
+#mainnav:link {
+  color:#FEF6C2;
+}
+#mainnav:visited {
+  color:#D2B48C;
+
+}
+#mainnav:hover {
+  color:#CC9933;
+
+}
+
+footer {
+	font-style: italic;
+  font-size: small;
+	background-color: #D2B48C;
+  text-align: center;
+  border-top: 2px solid #221811;
+  padding-bottom: 10px;
+}
+
+table {
+  width: 90%!important;
+  border-spacing: 0px!important;
+  background-color: #D2B48C!important;
+  border-style: none!important;
+}
+
+table tr:nth-of-type(2){
+    background-color:#ffffcc!important;
+}
+
+tr, td {
+  padding: 10px!important;
+}
+
+nav {
+    float: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #231814;
+    width: 200px;
+    height:609px;
+    list-style-type: none;
+}
+
+form {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+label{
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+#mySubmit {
+  margin-left: 110px;
+}
+input, textarea {
+  margin-top: 10px;
+  display: block;
+}
+
+.navjobs{
+  float: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #231814;
+  width: 200px;
+  height:398px;
+  list-style-type: none;
+}
+
+.navmenu {
+  float: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #231814;
+  width: 200px;
+  height:630px;
+  list-style-type: none;
+}
+
+.navguitar {
+  float: left;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #231814;
+  width: 200px;
+  height:775px;
+  list-style-type: none;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+.wrapper{
+  box-shadow: 3px 3px;
+  background-color:#FEF6C2;
+  min-width: 900px;
+  max-width: 1280px;
+  margin-right:auto;
+  margin-left:auto;
+  width: 80%;
+}
+.container{
+margin-left: 200px;
+padding-left: 3em;
+padding-right: 2em;
+
+  padding-bottom: 20px;
+
+}
+h4{
+  background-color: #D2B48C;
+}
+
+.details{
+  height: 120px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#mobile {display: none;}
+.details2{
+  height: 120px;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+<a href="melaine.jpg">
+<img src="melaniethumb.jpg" alt="Photo of Melaine" style="width:42px;height:42px;border:0;">
+</a>
