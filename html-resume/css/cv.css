@@ -1,0 +1,36 @@
+body
+{
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: lightgray;
+}
+h3 {
+    color: blue;
+    font-size: 1.2em;
+}
+table {
+    width:100%;
+}
+table, tr, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+td {
+    width: 350px !important;
+}
+#name {
+    font-size: 1.2em;
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.job-role {
+    font-weight: bold;
+}
+#contact {
+    background-color: beige;
+}
