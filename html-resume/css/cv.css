@@ -31,6 +31,9 @@ td {
 .job-role {
     font-weight: bold;
 }
+.color-blue {
+    color: blue;
+}
 #contact {
     background-color: beige;
 }
