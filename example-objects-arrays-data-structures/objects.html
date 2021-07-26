@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
     <script src="js/objects.js"></script>
 </head>
+
 <body>
-    
+    <h2>Login Form</h2>
+
+    <form method="post">
+
+        <div style="background: cornflowerblue; text-align: center; margin-left: 100px; margin-right: 100px;">
+
+            <div>
+
+                <h2>Javascript Login Form Validation</h2>
+
+                <form id="form_id" method="post" name="myform">
+                    <label>User Name :</label>
+                    <input type="text" name="username" id="username" />
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password" />
+                    <input type="button" value="Login" id="submit" onclick="validate()" />
+                </form>
+
+                <div style="padding-top: 20px;"><br>
+                    <b>Note : </b>For this demo use following username and password. <br />
+                      <b class="valid">User Name : user<br />Password : password</b>
+                </div>
+            </div>
+        </div>
+
+    </form>
 </body>
+
 </html>
