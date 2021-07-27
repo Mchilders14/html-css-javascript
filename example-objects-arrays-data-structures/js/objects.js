@@ -23,6 +23,8 @@ for(let idx of array1){
     console.log(idx);
 }
 
+let array2 = [5, 6, 7, 8, 9, 10]
+
 
 
 
