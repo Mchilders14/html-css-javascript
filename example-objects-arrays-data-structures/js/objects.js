@@ -18,7 +18,10 @@ let shape = {
     volume: 1
 }
 
-
+let array1 = [1, 2, 3, 4]
+for(let idx of array1){
+    console.log(idx);
+}
 
 
 
