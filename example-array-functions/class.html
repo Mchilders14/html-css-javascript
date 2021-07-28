@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/class.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label id="nameLabel" for="name">Name: </label>
+            <input id="name" name="name" type="text" placeholder="Enter class name">
+        </div>
+        <div>
+            <label id="ratingLable" for="rating">Rating:</label>
+            <input id="rating" name="rating" type="text" placeholder="Rating for class">
+        </div>
+        <div>
+            <button onclick="addClass()">Add</button> ||| <button onclick="remove()">Delete</button>
+        </div>
+    </div>
+    <div>
+        <button onclick="displayTopics()">Generate Topics</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
