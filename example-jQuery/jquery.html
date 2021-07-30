@@ -6,10 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="converter">
         <button id="minus">Minus</button>
         <input id="nbr" type="number" value = "0" disabled>
         <button id="plus">Plus</button>
     </div>
+    <div>
+        <input id="in" type="text">
+        <input id="out" type="text">
+        <button id="copy">Copy from in to out</button>
+    </div>
+    <div>
+        <button id="toggle">Toggle Column Heading Style</button>
+        <button id="hide">Hide Data</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Topic</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
 </body>
 </html>
