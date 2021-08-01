@@ -8,4 +8,6 @@ This repository contains sample code using:
 Technologies:
   Visual Studio Code
   Atom
+  Google Chrome
+  Safari
   
