@@ -1,8 +1,14 @@
+
+/*
+    This file contains HTML 'GET' methods for getting a USER
+*/
+
 $(() => {
     console.log("Everything is ready!");
     getUserById(3);
 }); 
 
+// Funtion to get USER by assigned id
 const getUserById = (id) => {
     $.getJSON(`http://localhost:8080/api/users/${id}`)
     .done(res => { console.debug(res);
@@ -14,6 +20,7 @@ const getUserById = (id) => {
 
 };
 
+// Funtion to display a USER by assigned id
 const displayUser = (user) => {
     $("#dId").html(`<b>${user.id}</b>`);
     $("#dUsername").text(`${user.username}`);
@@ -25,6 +32,7 @@ const displayUser = (user) => {
     $("#dAdmin").text(`${(user.admin ? "Yes" : "No")}`);
 }
 
+// Funtion to get ALL USERS
 const getAllUsers = () => {
     $.getJSON(`http://localhost:8080/api/users/`)
         .done(res => {
@@ -36,6 +44,7 @@ const getAllUsers = () => {
         });
     }
 
+// Funtion to display ALL USERS
 const display = (users) => {
     let tbody = $("tbody");
     tbody.empty();
