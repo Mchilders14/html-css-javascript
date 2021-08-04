@@ -1,18 +1,31 @@
 $(() => {
-    $("#xGet").on("click", () => {
-        let id = $("#yId").val();
+    // $("#xGet").on("click", () => {
+    //     let id = $("#yId").val();
+        let urlParms = parseUrl();
+        let id = +urlParms.id;
         vendorGetById(id)
             .done(res => {
                 console.debug(res);
                 display(res);
             })
-            .fail(err => console.error(err));
-    })
+            .fail(err => {
+                $("#message").html("<b>Vendor not found!</b>");
+                console.error(err);
+            });
+    // })
 
     $("#xSave").on("click", () => {
         let vendor = {};
         getFromPage(vendor);
-        vendorUpdate(vendor);
+        vendorUpdate(vendor)
+            .done(res => {
+                console.debug(res);
+                console.log("Update successful!"); 
+                $("#message").html("<b>Change successful!</b>");
+                window.location.href = "../getAll/vendorGetAll.html";
+           })
+            .fail(err => console.error(err));
+                $("#message").html("<b>Change successful!</b>");
     })
 });
 
