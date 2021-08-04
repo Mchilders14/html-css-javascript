@@ -32,6 +32,6 @@ const parseUrl = () => {
     }
 
     console.log(urlParm);
-    return urlParm;
+    return urlParm; // Return value for function
 }
 
